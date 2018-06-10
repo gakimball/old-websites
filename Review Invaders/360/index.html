@@ -1,0 +1,385 @@
+<!DOCTYPE html
+PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" 
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html>
+<head>
+
+<title>review invaders :: main</title>
+
+<style type="text/css">
+
+<!-- general css -->
+body { 
+	background: url('bg.jpg');
+	font-family: Arial, sans-serif;
+	color: #ffffff;
+	margin-top:0px;
+	margin-bottom:0px; }
+.bigger {
+	font-size: xx-large; }
+.whiteborder {
+	border: 1px solid #ffffff; }
+.updateid {
+	font-size: x-large;
+	font-weight: bold;
+	text-decoration: underline;
+	letter-spacing: 5px; }
+.postedid { 
+	font-size: small;
+	font-weight: bold; }
+.footer {
+	font-size: small;
+	letter-spacing: 6px; }
+	
+<!-- search form stuff -->
+input.searchform { 
+	background: #333333;
+	color: #ffffff;
+	border: 1px solid #ffffff; }
+input.searchbutton {
+	background: #333333;
+	color: #ffffff;
+	font-weight: bold;
+	border: 1px solid #ffffff; }
+	
+<!-- standard links -->
+a:link {
+	color: #ccccff;
+	text-decoration: none; }
+a:visited ( 
+`	color: #ccccff;
+	text-decoration: none; )
+a:active { 
+	color: #ccccff;
+	text-decoration: underline; }
+a:hover { 
+	color: #ccccff;
+	text-decoration: underline; }
+
+<!-- main navigation links -->
+a:link.nav {
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: large }
+a:visited.nav (
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: large )
+a:active.nav {
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: large }
+a:hover.nav {
+	color: #ffffff;
+	text-decoration: underline;
+	font-weight: bold;
+	font-size: large }
+
+<!-- sub navigation links -->
+a:link.subnav {
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: small; }
+a:visited.subnav ( 
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: bold; )
+a:active.subnav {
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: bold; }
+a:hover.subnav {
+	color: #ffffff;
+	text-decoration: underline;
+	font-weight: bold; }	
+
+</style>
+
+</head>
+<body>
+
+<!-- start main site table -->
+<table
+ align="center"
+ width="800"
+ bgcolor="#000000;"
+ cellspacing="10"
+ cellpadding="0"
+ style="border: 5px solid #999999;">
+
+	<tr>
+		<td rowspan="2" width="40%">
+			<!-- logo table -->
+			<img src="logo.jpg" width="300" height="150" />
+		</td>
+		<td>
+			<!-- navigation table -->
+			<table class="whiteborder" cellspacing="0" cellpadding="10" width="100%">
+				<tr><td>
+				<!-- start the main navigation -->
+				///
+				<a href="http://google.com" class="nav">main</a>
+				//
+				<a href="http://google.com" class="nav" 
+					onmouseover="document.getElementById('invaders').src='sys_360.jpg';"
+					onmouseout="document.getElementById('invaders').src='sys_main.jpg';">xbox 360</a>
+				//
+				<a href="http://google.com" class="nav" 
+					onmouseover="document.getElementById('invaders').src='sys_xbla.jpg';"
+					onmouseout="document.getElementById('invaders').src='sys_main.jpg';">xbla</a>
+				//
+				<a href="http://google.com" class="nav" 
+					onmouseover="document.getElementById('invaders').src='sys_wii.jpg';"
+					onmouseout="document.getElementById('invaders').src='sys_main.jpg';">wii</a>
+				//
+				<a href="http://google.com" class="nav" 
+					onmouseover="document.getElementById('invaders').src='sys_ds.jpg';"
+					onmouseout="document.getElementById('invaders').src='sys_main.jpg';">ds</a>
+				//
+				<a href="http://google.com" class="nav" 
+					onmouseover="document.getElementById('invaders').src='sys_ps2.jpg';"
+					onmouseout="document.getElementById('invaders').src='sys_main.jpg';">ps2</a>
+				//
+				<a href="http://google.com" class="nav" 
+					onmouseover="document.getElementById('invaders').src='sys_psp.jpg';"
+					onmouseout="document.getElementById('invaders').src='sys_main.jpg';">psp</a>
+				//
+				<a href="http://google.com" class="nav" 
+					onmouseover="document.getElementById('invaders').src='sys_retro.jpg';"
+					onmouseout="document.getElementById('invaders').src='sys_main.jpg';">retro</a>
+				///
+				<!-- end the main navigation -->
+				<br />
+				<!-- start sub navigation -->
+				///
+				<a href="http://google.com" class="subnav">reviews</a>
+				//
+				<a href="http://google.com" class="subnav">videos</a>
+				//
+				<a href="http://google.com" class="subnav">staff blogs</a>
+				//
+				<a href="http://google.com" class="subnav">features</a>
+				//
+				<a href="http://google.com" class="subnav">game guides</a>
+				///
+				<br />
+				///
+				<a href="http://google.com" class="subnav">about us</a>
+				//
+				<a href="http://google.com" class="subnav">link to us</a>
+				//
+				<a href="http://google.com" class="subnav">rss</a>
+				///
+				<!-- end the sub nav stuff -->
+			</table>
+			<!-- end navigation table -->
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<!-- system image table -->
+			<table border="0" cellspacing="0" cellpadding="0" width="100%">
+				<tr><td>
+					<img src="sys_main.jpg" class="whiteborder" id="invaders" width="500" height="100" />
+				</td></tr>
+			</table>
+			<!-- end image table -->
+		</td>
+	</tr>
+	<tr>
+		<td colspan="2">
+			<!-- spacer slot -->
+		</td>
+	</tr>
+	<tr>
+		<td width="40%" valign="top">
+			<!-- highlights nav table -->
+			<table class="whiteborder" cellspacing="0" cellpadding="0">
+				<tr><td>
+				<!-- header image -->
+				<div align="center">
+				<img src="highlights.jpg" width="300" height="100" />
+				<br />
+				<img class="whiteborder" src="h1.jpg" width="250" height="100" />
+				<br /><br />
+				<img class="whiteborder" src="h2.jpg" width="250" height="100" />
+				<br /><br />
+				<img class="whiteborder" src="h3.jpg" width="250" height="100" />
+				<br /><br />
+				</div>
+				</td></tr>
+			</table>
+			<!-- end highlights table -->
+			<br />
+			<!-- ad space go! -->
+			<table class="whiteborder" cellspacing="0" cellpadding="0">
+				<tr><td>
+				<!-- ad header -->
+				<img src="adheader.jpg" width="300" height="75" />
+				</td></tr>
+				<tr><td>
+				<!-- the ad, lol -->
+				<div align="center">
+				(ad space here)
+				</div>
+				</td></tr>
+			</table>
+			<!-- ad space cease! -->
+			
+			<!-- search box -->
+			<form method="POST" action="../_derived/nortbots.htm" onSubmit="location.href='../_derived/nortbots.htm';return false;" webbot-action="--WEBBOT-SELF--" WEBBOT-onSubmit>
+            <!--webbot bot="SaveResults" startspan
+            U-File="_private/form_results.txt" S-Format="TEXT/CSV"
+            S-Label-Fields="TRUE" --><strong>[FrontPage Save Results Component]</strong><!--webbot
+            bot="SaveResults" endspan i-checksum="6561" -->
+			<table class="whiteborder" width="300px" height="100px" background="searchbg.jpg">
+				<tr><td width="50%" valign="middle" align="right"><br /><br />
+					<input class="searchform" type="text" name="keywords" />
+				</td><td width="50%" valign="middle" align="left"><br /><br />
+					<input class="searchbutton" type="submit" value="search" name="B1" />
+				</td></tr>
+			</table>
+			</form>
+			<!-- end search box -->
+		</td>
+
+		<td valign="top">
+			<!-- fresh updates header -->
+			<table class="whiteborder" cellpadding="2" width="100%">
+				<tr><td>
+					<b>
+					<span class="bigger">F</span>RESH <span class="bigger">U</span>PDATES
+					</b>
+				</td></tr>
+			</table>
+			<!-- end updates header -->
+			<br />
+			<!-- start updates -->
+			<table border="0" cellspacing="5" cellpadding="0" width="100%">
+				<tr><td>
+				
+				<!--
+				
+				LISTEN UP KIDS!
+				This is the update syntax, lol.
+				
+				<span class="updateid">
+				Update title
+				</span>
+				<br />
+				<span class="postedid">
+				posted by NAMEINALLCAPS on MONTH (three letters, all caps) 12, 2007
+				</span>
+				<br /><br />
+				And it's my birthday, even.  Huzzah!<br />
+				<br />
+				Your updates and such go here.  If you're posting reviews
+				or news, format it like this:
+				>> Game name <i>(by reviewer, reviewer, and reviewest)</i><br />
+				>> etc...
+				<br /><br />
+				
+				-->
+				
+				<span class="updateid">
+				New reviews for 11/12/2007
+				</span>
+				<br />
+				<span class="postedid">
+				posted by GAKON on NOV 12, 2007
+				</span>
+				<br /><br />
+				And it's my birthday, even.  Huzzah!<br />
+				<br />
+				>> <a href="http://google.com">Aegis Wing</a> <i>(by LordAndrew)</i><br />
+				>> <a href="http://google.com">Halo 3</a> <i>(by Gakon, Aspro, and Gmsnpr)</i><br />
+				>> <a href="http://google.com">Grand Theft Auto IV</a> <i>(By Gmsnpr and Usagi)</i><br />
+				<br /><br />
+				
+				<span class="updateid">
+				Update title
+				</span>
+				<br />
+				<span class="postedid">
+				posted by GAKON on NOV 11, 2007
+				</span>
+				<br /><br />
+				I'm going to give you links to search engines you
+				haven't heard of, lol.  This first one is called
+				<a href="http://google.com">Google</a>.  It has a 
+				goofy name.  There's also these other two called
+				<a href="http://yahoo.com">Yahoo!</a> and <a href="http://msn.com">
+				MSN</a>.  Man, does ANYONE use MSN?
+				<br /><br />
+				
+				<span class="updateid">
+				Lorem ipsum
+				</span>
+				<br />
+				<span class="postedid">
+				posted by FOO on BAR 12, 1337
+				</span>
+				<br /><br />
+				Lorem ipsum dolor sit amet, etc etc
+				<br /><br />
+				<<a href="http://google.com">update log</a>>
+				<br /><br />
+			</table>
+			<!-- video player header -->
+			<table class="whiteborder" cellpadding="2" width="100%">
+				<tr><td>
+				<b>
+				<span class="bigger">V</span>IDEO <span class="bigger">P</span>LAYER
+				</b>
+				</td></tr>
+			</table>
+			<!-- end video header -->
+			<br />
+			<!-- start video iframe -->
+			<iframe frameborder="0" src="video1.htm" name="vidplayer" width="450" height="450" align="center">
+			</iframe>
+
+		</td>
+	</tr>
+	<tr>
+		<td colspan="2" align="center">
+			<!-- footer table -->
+			<span class="footer">design for this site by Geoff Kimball, aka gakon5</span>
+		</td>
+	</tr>
+
+<!-- end uh, the whole thing... goodbye -->
+</table>
+
+
+<!-- 	this is for the junk pile... sorry, old update syntax.
+		we loved you.
+		<span class="updateid">
+		/
+		review
+		/
+		<span style="color:#">
+		xbox live arcade
+		</span>
+		/
+		<b>aegis wing</b>
+		/
+		</span>
+		<br />
+		<span class="posted">
+		posted // May 23, 2007
+		</span>
+		<br /><br />	
+		Even though it's a free shooter, Aegis Wing is a
+		great game to play, especially the Co-Op mode. (review by gakon)
+		<br /><br />
+-->
+
+</body>
+
+

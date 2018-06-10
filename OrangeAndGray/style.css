@@ -1,0 +1,61 @@
+/* code for the body */
+
+body { 
+  margin-top: 10px;
+  margin-left: 20px;
+  color: #ffffff;
+  font-face: Arial, sans-serif; }
+
+/* code for the main box */
+
+div.main { 
+  width: 500px; }
+
+/* code for links */
+
+/* code for rounded corners */
+
+.spiffy{display:block}
+
+.spiffy *{
+  display:block;
+  height:1px;
+  overflow:hidden;
+  font-size:.01em;
+  background:#FF6600}
+
+.spiffy1{
+  margin-left:3px;
+  margin-right:3px;
+  padding-left:1px;
+  padding-right:1px;
+  border-left:1px solid #ffbd91;
+  border-right:1px solid #ffbd91;
+  background:#ff8c3f}
+
+.spiffy2{
+  margin-left:1px;
+  margin-right:1px;
+  padding-right:1px;
+  padding-left:1px;
+  border-left:1px solid #ffefe5;
+  border-right:1px solid #ffefe5;
+  background:#ff8330}
+
+.spiffy3{
+  margin-left:1px;
+  margin-right:1px;
+  border-left:1px solid #ff8330;
+  border-right:1px solid #ff8330;}
+
+.spiffy4{
+  border-left:1px solid #ffbd91;
+  border-right:1px solid #ffbd91}
+
+.spiffy5{
+  border-left:1px solid #ff8c3f;
+  border-right:1px solid #ff8c3f}
+
+.spiffyfg{
+  background:#FF6600;
+  padding: 10px 10px 10px 10px; }

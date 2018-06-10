@@ -1,0 +1,241 @@
+<html>
+
+<head>
+
+	<title>New Page 1</title>
+    <style type="text/css">
+		body { 
+			font-family: Arial;
+			background-color: black;
+			background-image: url(bg.jpg); }
+		h2 { 
+			color: black;
+			background: white;
+			background-image: url('h1bg.jpg');
+			background-position: bottom;
+			background-repeat: repeat-x;
+			border: 1px solid #999999;
+			padding: 5px 5px 5px 5px; }
+		h3 { 
+			color: black;
+			background: white;
+			background-image: url('h1bg.jpg');
+			background-position: bottom;
+			background-repeat: repeat-x;
+			border: 1px solid #999999;
+			padding: 5px 5px 5px 5px; }
+		table.nav { 
+			text-align: center;
+			background-color: #cccccc; }
+		table.content { 
+			color: #000000;
+			background-color: #ffffff;
+			border: 0px; }
+		td.activebutton { 
+			background-color: #ffffff; }
+		form.sform { 
+			display: none; }
+		input.search { 
+			width: 300px;
+			height: 40px;
+			background: white;
+			border: 1px solid #999999;
+			color: black;
+			font-size: large; }
+		input.submit { 
+			color: black;
+			font-size: large;
+			height: 40px;
+			background-color: white;
+			background-image: url(buttonbg.jpg);
+			background-position: bottom;
+			background-repeat: repeat-x;
+			border: 1px solid #999999;
+			height: auto; }
+		a:link { 
+			color: #000000;
+			font-weight: bold;
+			text-decoration: none; }
+		a:visited { 
+			color: #000000;
+			font-weight: bold;
+			text-decoration: none; }
+		a:hover { 
+			color: #000000;
+			font-weight: bold;
+			text-decoration: underline; }
+		a:active { 
+			color: #000000;
+			font-weight: bold;
+			text-decoration: underline; }
+	</style>
+	
+	<script type="text/javascript">
+		x = 0
+		
+		function showSearch()
+		{
+		if (x == 0)
+			{
+			x = 1
+			document.getElementById("sform").style.display="inline"
+			document.getElementById("sbutton").style.background="#ffffff"
+			}
+		else
+			{
+			x = 0
+			document.getElementById("sform").style.display="none"
+			document.getElementById("sbutton").style.background=""
+			}
+		}
+	</script>
+
+</head>
+
+<body>
+
+<!-- start big epic table -->
+<table cellspacing="0" cellpadding="0" align="center" width="800px">
+	<tr><td>
+		<!-- header image -->
+		<img src="header.png" align="center">
+	</td></tr>
+	
+	
+	<tr><td>
+		<!-- start nav table -->
+		<table cellspacing="0" cellpadding="10" width="100%" class="nav">
+			<tr><td>
+				&nbsp;
+			</td><td class="activebutton">
+				<a href="http://www.something.com">
+				main page
+				</a>
+			</td><td>
+				<a href="http://www.something.com">
+				game reviews
+				</a>
+			</td><td>
+				<a href="http://www.something.com">
+				editorials
+				</a>
+			</td><td>
+				<a href="http://www.google.com">
+				features
+				</a>
+			</td><td>
+				<a href="http://www.google.com">
+				video
+				</a>
+			</td><td>
+				<a href="http://www.google.com">
+				podcast
+				</a>
+			</td><td>
+				<a href="http://www.google.com">
+				forums
+				</a>
+			</td><td id="sbutton">
+				<a href="javascript:showSearch()">
+				search
+				</a>
+			</td><td>
+				&nbsp;
+			</td></tr>
+		</table>
+		<!-- end nav table -->
+	</td></tr>
+	
+	
+	<tr><td>
+		<!-- start content table -->
+		<table cellspacing="0" cellpadding="10" width="100%" class="content"><tr><td>
+		
+		
+		<form id="sform" class="sform">
+		<h3>search</h3>
+		<input type="text" class="search"> <input type="submit" value="submit" class="submit">
+		</form>
+		
+		
+		<h2>updates</h2>
+		<b>Lorem ipsum dolor sit amet</b><br>
+		Consectetuer adipiscing elit. Vestibulum
+		diam. Nulla sed pede. Nullam id odio sed nibh pulvinar mollis. Vivamus
+		sit amet elit nec dolor faucibus mattis. Maecenas velit enim, accumsan
+		in, lacinia sed, pulvinar vitae, sem. Fusce massa justo, nonummy quis,
+		cursus interdum, laoreet et, eros. Aliquam erat volutpat. Duis mollis
+		semper nisl. Ut elementum rhoncus justo.<br>
+		<br>
+		<b>Cras non nibh.</b><br>
+		Pellentesque habitant morbi tristique senectus et netus
+		et malesuada fames ac turpis egestas. Quisque lobortis imperdiet lorem.
+		Sed elit ipsum, tincidunt eget, imperdiet sit amet, sodales id, felis.
+		Nulla facilisi. Donec scelerisque neque a mauris. Curabitur congue
+		ipsum.<br>
+		<br>
+		<b>Duis eu nibh. Vestibulum diam.</b><br>
+		Maecenas ullamcorper, dui quis sagittis
+		condimentum, mauris diam sagittis orci, dapibus convallis metus sapien
+		et neque. Praesent sagittis nunc ullamcorper turpis. Nulla pharetra,
+		felis vitae pulvinar venenatis, velit dui semper est, id lacinia orci
+		libero at risus. Nulla facilisi. Cras molestie risus a sem. Quisque
+		nibh mauris, fermentum eu, congue quis, suscipit facilisis, enim.<br>
+		<br>
+		<b>Ut nec urna sit amet quam dignissim facilisis.</b><br>
+		Pellentesque habitant
+		morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+		Aliquam at dui ac eros sagittis volutpat. Proin auctor bibendum lacus.
+		Aliquam lectus dolor, volutpat nec, vehicula vitae, posuere eu, justo.<br>
+		<br>
+		<b>[update archive]</b>
+		
+		
+		<h2>welcome to pushb</h2>
+		Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nullam
+		facilisis, eros sit amet posuere cursus, est erat faucibus est, vel
+		scelerisque metus justo sit amet libero. Aliquam dignissim auctor
+		libero. Etiam nunc. Duis congue convallis nisl. Integer viverra, sapien
+		vitae dapibus euismod, nibh magna aliquam metus, quis ullamcorper urna
+		sem id turpis. Nunc sit amet diam molestie justo eleifend nonummy.<br>
+		<br>
+		Morbi gravida posuere turpis. Nulla justo diam, egestas nec, convallis
+		id, ultrices et, elit. Donec justo arcu, pharetra id, aliquam luctus,
+		convallis in, mauris. Cras convallis nulla ut lacus. Vestibulum vitae
+		neque. Nunc lectus lacus, imperdiet vehicula, faucibus eu, rutrum
+		bibendum, risus. Cras mi dolor, accumsan vel, sodales id, ultrices in,
+		erat. Suspendisse eu ante. Vestibulum pretium mauris nec eros.<br>
+		<br>
+		
+
+		<h2>site departments</h2>
+		<b>main page</b> - You are here.  Find out what's new on the site.<br>
+		<br>
+		<b>game reviews</b> - Our bread and butter; the game reviews.  We review games for
+		all current- and last-gen systems mostly, but our reviews go all the way back
+		to the 8-bit era.<br>
+		<br>
+		<b>editorials</b> - Read staff blogs and weekly editorial columns.<br>
+		<br>
+		<b>features</b> - Check out our gaming feature articles.<br>
+		<br>
+		<b>video</b> - Sit back and watch some videos.<br>
+		<br>
+		<b>podcast</b> - PushB Radio, our weekly (or maybe semi-weekly) podcast.  Listen
+		to us talk about something.<br>
+		<br>
+		<b>forum</b> - Sign up, type something, and post it on our message boards.
+		
+		</td></tr>
+		
+		</table>
+		<!-- end content table -->
+	</td></tr>
+	
+	
+</table>
+<!-- end fully epic table -->
+
+</body>
+
+</html>

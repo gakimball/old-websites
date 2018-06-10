@@ -1,0 +1,25 @@
+{
+  "name": "old-websites",
+  "version": "1.0.0",
+  "description": "Embarrassing old websites",
+  "private": true,
+  "scripts": {
+    "start": "serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gakimball/old-websites.git"
+  },
+  "author": "Geoff Kimball <geoff@geoffkimball.com> (http://geoffkimball.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gakimball/old-websites/issues"
+  },
+  "homepage": "https://github.com/gakimball/old-websites#readme",
+  "engines": {
+    "node": ">=6"
+  },
+  "dependencies": {
+    "serve": "^8.1.2"
+  }
+}

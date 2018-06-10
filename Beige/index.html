@@ -1,0 +1,163 @@
+<html>
+
+<head>
+
+    <style type="text/css">
+		body { 
+			background: #86785B;
+			font-family: Arial, sans-serif;
+			margin-top: 0px;
+			margin-bottom: 0px;
+			margin-right: 0px; }
+		table.main { 
+			height: 100%;
+			float: right;
+			margin-right: 80px; }
+		table.rightside { 
+			width: 500px; }
+		td.right-upper { 
+			top: 10px;
+			background-color: #86785B;
+			text-align: left; }
+		td.right-middle { 
+			width: 500px;
+			height: 250px;
+			background-image: url(main.jpg); }
+		td.right-bottom { 
+			background-color: #ffffff; }
+		.title { 
+			font-size: x-large;
+			font-weight: bold; }
+		.more { 
+			visibility: hidden;
+			display: none; }
+		a:link.top { 
+			color: #ffffff;
+			font-weight: bold; }
+		a:visited.top { 
+			color: #ffffff;
+			font-weight: bold; }
+		a:hover.top { 
+			color: #ffffff;
+			font-weight: bold;
+			text-decoration: none; }
+		a:active.top { 
+			color: #ffffff;
+			font-weight: bold; }
+	</style>
+	<script type="text/javascript">
+		x = 0
+		function showText()
+			{
+			if (x == 0)
+				{
+				x = 1
+				document.getElementById("more").style.visibility="visible"
+				document.getElementById("more").style.display="inline"
+				}
+			else
+				{
+				x = 0
+				document.getElementById("more").style.visibility="hidden"
+				document.getElementById("more").style.display="none"
+				}
+			}
+	</script>
+
+</head>
+
+<body>
+
+	<!-- this table has two main columns that
+	sort out the main content on the right side
+	and the nav and whatever else on the left -->
+	<table class="main" cellspacing="0" cellpadding="0">	
+		<tr><td style="padding:0px 0px 0px 0px;">
+			<!-- the first column with nav and whatever else -->
+			<img src="side.jpg" style="margin-right:0px;" width="250" height="500">
+			<!-- end first epic table -->
+		</td><td valgin="top">
+			<!-- the second column with the content -->
+			<table class="rightside" cellspacing="0" cellpadding="10">
+				<tr><td class="right-upper">
+				<!-- the search button goes here -->
+				<div style="color:#ffffff">
+				<a href="http://www.google.com" class="top">main</a> //
+				<a href="http://www.google.com" class="top">graphics</a> //
+				<a href="http://www.example.com" class="top">music</a> //
+				<a href="http://www.example.com" class="top">links</a>
+				</div>
+				</td></tr>
+				<tr><td class="right-middle">
+				<!-- the gakonfive image goes here -->
+				</td></tr>
+				<tr><td class="right-bottom">
+				<!-- the rest of the content goes here -->
+				<span class="title">Lorem ipsum dolor...</span>
+				<p>
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nulla
+eleifend. Phasellus tincidunt, augue sit amet lacinia viverra, magna
+lectus pulvinar ante, ac porta mi ante ut turpis. Integer bibendum
+sagittis pede. Aliquam leo. Vivamus vestibulum fermentum elit.
+Vestibulum volutpat feugiat felis. Nunc dignissim scelerisque felis.
+Vestibulum vel orci ac augue egestas imperdiet. Cum sociis natoque
+penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+Proin congue consequat tortor. Etiam diam mauris, dictum et, faucibus
+sit amet, egestas ultricies, tellus. Nam urna nunc, condimentum sit
+amet, imperdiet sit amet, dapibus lobortis, eros. Donec lobortis
+malesuada neque. Donec malesuada, augue nec dignissim euismod, dolor
+sapien sollicitudin diam, quis elementum odio nunc at metus. Sed justo
+justo, cursus eget, sollicitudin sit amet, venenatis ac, purus. Morbi a
+tellus. Donec sed dolor eget lorem imperdiet adipiscing. Curabitur
+cursus, justo ac sagittis adipiscing, felis mauris feugiat tellus, eu
+accumsan leo pede vitae lectus.
+</p>
+<div id="more" class="more">
+<p>Vivamus a pede. Pellentesque gravida rutrum dui. Aliquam gravida.
+Vivamus sollicitudin luctus sem. Etiam mauris urna, porttitor at,
+sollicitudin sed, tempus quis, tellus. Nam ornare, diam vitae mollis
+ullamcorper, turpis leo gravida turpis, sit amet venenatis mi justo
+vitae est. Suspendisse porta tellus in turpis. Cras ac risus in enim
+laoreet consectetuer. Proin lorem massa, facilisis ut, hendrerit id,
+rhoncus sed, elit. Nulla mattis.
+</p>
+<p>In et velit. Duis mattis lacus et est. Mauris aliquam vulputate
+dolor. Phasellus semper semper velit. Nullam libero felis, euismod sit
+amet, vestibulum eget, volutpat at, dolor. In hac habitasse platea
+dictumst. Proin risus nunc, aliquet a, ultrices ut, ullamcorper non,
+nibh. Sed eu ipsum venenatis nulla hendrerit consequat. Donec eleifend,
+ligula non ullamcorper semper, urna diam tempor felis, viverra posuere
+lorem odio sed justo. Cras sit amet odio elementum tellus hendrerit
+sollicitudin. Nam egestas. Curabitur orci felis, euismod ac, pharetra
+nec, vulputate in, orci. Nam at enim. Maecenas eu tellus. Curabitur
+eleifend lectus sit amet libero. Pellentesque habitant morbi tristique
+senectus et netus et malesuada fames ac turpis egestas.
+</p>
+</div>
+<a href="javascript:showText()">read more...</a>
+				</td></tr>
+			</table>
+			<!-- end second epic table -->
+		</td></tr>
+	</table>
+
+
+
+
+
+	<!--
+	<table class="main" cellspacing="0" cellpadding="0">
+
+		<tr><td align="right">
+			music   search
+		</td></tr>
+
+		<tr><td valign="top">
+			<img src="main.jpg">
+			
+		</td></tr>
+	</table>
+	-->
+
+</body>
+

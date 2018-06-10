@@ -1,0 +1,187 @@
+<html>
+
+<head>
+
+<title>logo</title>
+<style type="text/css">
+	body { 
+		font-family: Arial, sans-serif; }
+	/*
+	table { 
+		border: 1px solid black; }
+	table td { 
+		border: 1px solid red; }
+	*/
+	td.corner { 
+		background-image: url('img/corner.jpg');
+		background-position: bottom left;
+		background-repeat: no-repeat;
+		background-color: #cccccc;
+		width: 60px;
+		height: 60px; }
+	td.gray { 
+		background-color: #cccccc; }
+	td.white { 
+		background-color: white;
+		text-color: black;
+		height: 60px; }
+	table.dept a:link { 
+		align: left;
+		color: black;
+		text-decoration: underline;
+		font-weight: bold; }
+	table.highlights { 
+		width: 500px;
+		border-top: 1px solid #cccccc;
+		border-left: 1px solid #cccccc; }
+</style>
+
+</head>
+
+<body bgcolor="#ffffff">
+
+<center>
+
+<!-- start upper table -->
+<table width="800" cellspacing="0" cellpadding="0">
+	<tr>
+		<td>
+			<!-- logo image -->
+			<img src="img/logo.jpg">
+		</td>
+		<td>
+			<!-- search thing -->
+			search
+		</td>
+	</tr>
+</table>
+<!-- end upper table -->
+
+<!--
+start main table
+this table is sectioned off
+into right and left columns -->
+<table width="800" cellspacing="0" cellpadding="0">
+	<tr>
+		<td valign="top">
+			<!-- start left column table -->
+			<table width="100%" cellspacing="0" cellpadding="0">
+				<tr>
+					<td>
+						<!-- start highlights table -->
+						<table class="highlights">
+							<tr>
+								<td>
+									highlights
+								</td>
+							</tr>
+						</table>
+						<!-- end highlights table -->
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<!-- start platform/genre iframe table -->
+						<table width="100%">
+							<tr>
+								<td>
+									left img
+								</td>
+								<td>
+									<iframe src="nav_p.html" width="400" height="200" frameborder="0"></iframe>
+								</td>
+								<td>
+									right img
+								</td>
+							</tr>
+						</table>
+						<!-- end iframe table -->
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<!-- start updates table -->
+						<table width="100%">
+							<tr>
+								<td>
+									fresh updates
+								</td>
+							</tr>
+							<tr>
+								<td>
+									january 1st, 2008
+								</td>
+							</tr>
+							<tr>
+								<td>
+									december 31, 2007
+								</td>
+							</tr>
+							<tr>
+								<td>
+									december 29, 2007
+								</td>
+							</tr>
+						</table>
+					</td>
+				</tr>				
+			</table>
+			<!-- end left column table -->
+		</td>
+		<td valign="top">
+			<!-- start right column table -->
+			<table width="100%" cellspacing="0" cellpadding="0">
+				<tr>
+					<td>
+						<!-- start big navigation table -->
+						<table width="300px" cellspacing="0" class="dept">
+							<tr>
+								<td class="corner">
+									img
+								</td>
+								<td class="gray">
+									<a href="#">reviews</a><br>
+									<span class="smallsub">» opinions you can trust</span>
+								</td>
+							</tr>
+							<tr>
+								<td class="white">
+									img
+								</td>
+								<td class="white" style="border-right: 1px solid #cccccc">
+									<a href="#">video</a><br>
+									<span class="smallsub">» don't read, just watch</span>
+								</td>
+							</tr>
+							<tr>
+								<td class="corner">
+									img
+								</td>
+								<td class="gray">
+									<a href="#">features</a><br>
+									<span class="smallsub">» video game features</span>
+								</td>
+							</tr>
+							<tr>
+								<td class="white">
+									img
+								</td>
+								<td class="white" style="border-right: 1px solid #cccccc">
+									<a href="#">forums</a><br>
+									<span class="smallsub">» talk about whatever</span>
+								</td>
+							</tr>
+						</table>
+						<!-- end big nav table -->
+					</td>
+				</tr>
+			</table>
+			<!-- end right column table -->
+		</td>
+	</tr>
+</table>
+<!-- end main table -->
+
+</body>
+
+</html>

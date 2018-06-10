@@ -1,0 +1,249 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+
+<html>
+
+<head>
+
+<title>videnspiel - things about video games</title>
+
+<link rel="stylesheet" type="text/css" href="styles/style.css">
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+
+<script type="text/javascript" src="scripts/textfade.js"></script>
+<script type="text/javascript" src="scripts/jquery.js"></script>
+<script type="text/javascript" src="scripts/custom.js"></script>
+
+<script type="text/javascript">
+
+// for fading all four buttons on mouseover
+
+function buttonFade()
+{
+	document.getElementById("hlbutton").style.opacity = 0.5;
+	document.getElementById("hlbutton2").style.opacity = 0.5;
+	document.getElementById("hlbutton3").style.opacity = 0.5;
+	document.getElementById("hlbutton4").style.opacity = 0.5;
+}
+function buttonDeFade()
+{
+	document.getElementById("hlbutton").style.opacity = 1;
+	document.getElementById("hlbutton2").style.opacity = 1;
+	document.getElementById("hlbutton3").style.opacity = 1;
+	document.getElementById("hlbutton4").style.opacity = 1;
+}
+
+// for fading / unfading button 01 on mouse over / leave
+
+function imageSwap1on()
+{
+	document.getElementById("hl-left").style.backgroundImage = "url(images/highlights/highlight01.jpg)";
+	document.getElementById("hlbutton").style.opacity = 1;
+}
+function imageSwap1off()
+{
+	document.getElementById("hlbutton").style.opacity = 0.5;
+}
+
+function imageSwap2()
+{
+	document.getElementById("hl-left").style.backgroundImage = "url(images/highlights/highlight02.jpg)";
+}
+function imageSwap3()
+{
+	document.getElementById("hl-left").style.backgroundImage = "url(images/highlights/highlight03.jpg)";
+}
+function imageSwap4()
+{
+	document.getElementById("hl-left").style.backgroundImage = "url(images/highlights/highlight04.jpg)";
+}
+
+</script>
+
+</head>
+
+<body>
+
+<!-- title -->
+<div id="title">
+	<div>
+		<img src="images/title.jpg">
+	</div>
+</div>
+
+<!-- highlights box -->
+<div id="highlights" onmouseover="buttonFade();" onmouseout="buttonDeFade();">
+	<!-- main box, for centering -->
+	<div class="hl-main">
+		<!-- left side box, the big image -->
+		<div class="hl-left" id="hl-left">
+		</div>
+		<!-- right side box, the little buttons -->
+		<div class="hl-right">
+			<!-- right side, top box, holds two buttons -->
+			<div class="hl-rtop">
+				<a href="#" onmouseover="imageSwap1on();" onmouseout="imageSwap1off();"><img src="images/buttons/button01.jpg" id="hlbutton" class="button-l"></a>
+				<a href="#" id="hlbutton2"><img src="images/buttons/button02.jpg" class="button-r" onmouseover="imageSwap2()"></a>
+			</div>
+			<!-- right side, bottom box, holds the other two buttons -->
+			<div class="hl-rbot">
+				<a href="#" id="hlbutton3"><img src="images/buttons/button03.jpg" class="button-l" onmouseover="imageSwap3()"></a>
+				<a href="#" id="hlbutton4"><img src="images/buttons/button04.jpg" class="button-r" onmouseover="imageSwap4()"></a>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- wrapper div for the rest of the content -->
+<div id="wrapper">
+
+	<!-- navigation -->
+	<div id="n-align">
+		<ul class="navigation">
+			<li><a href="#">main page</a></li>
+			<li><a href="#">reviews</a></li>
+			<li><a href="#">features</a></li>
+			<li><a href="#">columns</a></li>
+			<li><a href="#">staff</a></li>
+			<li><a href="#">boards</a></li>
+		</ul>
+	</div>
+
+	<!-- left side context box -->
+	<div id="content-left">
+	
+		<h1>Lorem ipsum dolor sit amet</h1>
+		<span class="subhead">posted on 13 February 10:45p, by gakon</span>
+		
+		<div class="screen-border">
+			<img src="images/postimg/house.jpg">
+		</div>
+		
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
+		bibendum. Nulla ac quam. Nunc pharetra, nulla auctor volutpat
+		malesuada, diam augue ultricies metus, ac pretium nulla odio ac diam.
+		Maecenas felis. Suspendisse vel <a href="#">felis vel orci</a> tincidunt euismod. Donec
+		dignissim, sem varius dapibus dignissim, mauris lacus viverra nunc, a
+		tempor tellus lacus at velit. Nam luctus odio vel odio. Mauris pede.
+		Integer convallis diam. Nullam vel augue vitae nisl accumsan viverra.
+		Cras interdum, erat in rutrum egestas, risus mi lobortis sem, a congue
+		velit nibh eget tortor.</p>
+		
+		<blockquote>
+		<p>Cras elit arcu, posuere et, porttitor sit amet, pharetra ac, purus.
+		Vestibulum purus. Praesent sagittis. Maecenas ac ante vel neque
+		lobortis pretium. Phasellus ac dui. Quisque semper. Phasellus
+		vestibulum ornare est. Nulla ut lectus. Mauris vitae justo quis dolor
+		ornare aliquam. Nullam pellentesque volutpat magna.</p>
+		
+		<p>Vivamus in ligula
+		ac nunc adipiscing accumsan. Cras tortor. Etiam tristique justo et
+		urna. In adipiscing magna. Curabitur mauris elit, pellentesque sed,
+		eleifend sit amet, convallis id, dui. Phasellus vel nulla ornare lectus
+		tempor varius. Vestibulum metus.</p>
+		</blockquote>
+		
+		<p>In arcu ligula, aliquam in, dapibus sit amet, faucibus eget, ipsum.
+		Nunc rhoncus nunc at risus. Ut vitae orci id ipsum rutrum vulputate.
+		Vivamus ullamcorper iaculis justo. Curabitur semper consequat nibh.
+		Aliquam turpis. Vivamus laoreet ligula eu felis. Mauris aliquet posuere
+		nulla. Donec libero eros, pretium vel, elementum vel, scelerisque quis,
+		purus. Praesent non orci et nisl vulputate faucibus.</p>
+
+		<p>Cras vehicula arcu. Sed suscipit urna eu magna. Etiam pretium. Quisque
+		vel tortor. Aliquam eget velit consequat lectus vestibulum convallis.
+		Nullam imperdiet, est lacinia semper cursus, urna sapien aliquet arcu,
+		non eleifend enim nisl quis lacus. <a href="#">Maecenas et neque</a> at metus tincidunt
+		dictum. Duis pellentesque turpis at tellus. Donec tincidunt faucibus
+		purus. In aliquet. Proin in elit. Nullam vel orci at elit mollis
+		consequat.</p>
+		
+		<ul>
+			<li>Sed lacinia est a tellus</li>
+			<li>Aliquam mollis nisl sagittis lectus</li>
+			<li>Donec porta metus nec nisl</li>
+			<li>ivamus purus turpis, lobortis adipiscing</li>
+		</ul>
+		
+		<p>Aenean viverra sodales mauris. In lacus. Nunc rutrum commodo tellus.
+		Phasellus volutpat nunc eu pede. Proin mi. Mauris et turpis id magna
+		aliquet fermentum. Nulla at nibh. Cras ligula lacus, bibendum quis,
+		malesuada in, tempus at, magna. Nam felis. Aenean lobortis eros ut
+		lorem. Nam euismod quam in nibh. Nulla vulputate. Fusce non turpis ac
+		velit tempus sollicitudin. Vestibulum hendrerit tincidunt magna. Cras
+		ultrices.</p>
+		
+		<div id="comment-block">
+		
+			<a href="#">Digg This |</a>
+			<a href="#">Permalink |</a>
+			<a href="#">Comments (23)</a>
+		
+		</div>
+
+		<h1>Vestibulum faucibus accumsan erat</h1>
+		<span class="subhead">posted on 13 February 8:04p, by hoopaz</span>
+		
+		<div class="screen-border">
+			<img src="images/postimg/flower.jpg">
+		</div>
+		
+		<p>Fusce pede enim, cursus vel,
+		imperdiet vel, congue non, urna. Duis nec quam. Nam sed turpis et lorem
+		ultricies placerat. Proin mattis ante vitae augue. Vestibulum fermentum
+		fermentum magna. Ut vestibulum eros eu arcu. Suspendisse potenti. Ut
+		sagittis, pede in sodales bibendum, nibh risus pellentesque mi, id
+		posuere ipsum lorem a magna. Morbi sed lacus vel orci suscipit
+		faucibus. Pellentesque lacinia blandit orci. Suspendisse ut risus. Duis
+		iaculis. Mauris luctus. Nullam pharetra, purus ac vestibulum convallis,
+		elit nisl gravida pede, ut porttitor ipsum felis ac nibh.</p>
+		
+		<ol>
+			<li>Sed lacinia est a tellus</li>
+			<li>Aliquam mollis nisl sagittis lectus</li>
+			<li>Donec porta metus nec nisl</li>
+			<li>ivamus purus turpis, lobortis adipiscing</li>
+		</ol>
+		
+		<div id="fadeBlock"
+			style="background-color:Lime;width:250px;height:65px;text-align:center;">
+			<br />
+			I'm Some Text
+		</div>
+		<br /><br />
+		<input type="button" onclick="fade('fadeBlock');" value="Go" />
+	
+	</div>
+	
+	<!-- right side content block, contains sidebar -->
+	
+	<div id="content-right">
+	
+	<ul>
+		<li class="list-header">Featured Articles</li>
+		<li><a href="#">Wizards & Cyborgs Unite To Accept A Giant Bomb Award</a></li>
+		<li><a href="#">Even Noby Noby Boy's Creator Can't Explain It</a></li>
+		<li><a href="#">Activision Acting All Brutal Over EA's Publishing Deal</a></li>
+		<li><a href="#">Easy Weekend Achievements: Fallout 3 Edition</a></li>
+		<li><a href="#">Retro Game Challenge Review</a></li>
+		<li><a href="#">Speed Coke: A Drink Chugging Contest For The Ages</a></li>
+	</ul>
+	
+	<br>
+	
+	<ul>
+		<li class="list-header">Current Columns</li>
+		<li><a href="#">Warcraft Adventures</a></li>
+		<li><a href="#">Fairground Sights</a></li>
+		<li><a href="#">Cool Kids</a></li>
+		<li><a href="#">In The News</a></li>
+		<li><a href="#">Opionion-ate</a></li>
+	</ul>
+	
+	</div>
+
+</div>
+
+</body>
+
+</html>

@@ -1,0 +1,44 @@
+.rbox{display:block}
+
+.rbox *{
+  display:block;
+  height:1px;
+  overflow:hidden;
+  font-size:.01em;
+  background:#BEFFC4}
+
+.rbox1{
+  margin-left:3px;
+  margin-right:3px;
+  padding-left:1px;
+  padding-right:1px;
+  border-left:1px solid #e3ffe5;
+  border-right:1px solid #e3ffe5;
+  background:#ceffd2}
+
+.rbox2{
+  margin-left:1px;
+  margin-right:1px;
+  padding-right:1px;
+  padding-left:1px;
+  border-left:1px solid #f8fff9;
+  border-right:1px solid #f8fff9;
+  background:#caffcf}
+
+.rbox3{
+  margin-left:1px;
+  margin-right:1px;
+  border-left:1px solid #caffcf;
+  border-right:1px solid #caffcf;}
+
+.rbox4{
+  border-left:1px solid #e3ffe5;
+  border-right:1px solid #e3ffe5}
+
+.rbox5{
+  border-left:1px solid #ceffd2;
+  border-right:1px solid #ceffd2}
+
+.rboxfg{
+  background:#BEFFC4;
+  padding-left: 10px;}

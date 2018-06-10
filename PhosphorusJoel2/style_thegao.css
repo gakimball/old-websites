@@ -1,0 +1,90 @@
+body { 
+	background-image: url('background.jpg');
+	margin-top: 5px;
+	margin-bottom: 5px;
+	font-family: Arial, sans-serif;
+	color: black; }
+
+table.main { 
+	width: 800px;
+	height: 100%;
+	background: white;
+	border: 2px solid white; }
+
+table.main td.lower { 
+	background-color: #ffffff;
+	/* background-image: url('bg.jpg');
+	background-repeat: no-repeat; */
+	padding-left: 10px;
+	/* background-position: bottom right; */
+	vertical-align: top; }
+
+table.main td.upper { 
+	background-image: url('thegao.jpg');
+	height: 500px;
+	vertical-align: top; }
+
+a:link { 
+	font-weight: bold;
+	text-decoration: underline;
+	color: black; }
+
+a:visited { 
+	font-weight: bold;
+	text-decoration: underline;
+	color: black; }
+
+a:hover { 
+	font-weight: bold;
+	text-decoration: none;
+	color: black; }
+
+a:active { 
+	font-weight: bold;
+	text-decoration: none;
+	color: black; }
+
+a:link.white { 
+	font-weight: bold;
+	text-decoration: none;
+	color: white; }
+
+a:visited.white { 
+	font-weight: bold;
+	text-decoration: none;
+	color: white; }
+
+a:hover.white { 
+	font-weight: bold;
+	text-decoration: none;
+	color: white;
+	background: #cccccc; }
+
+a:active.white { 
+	font-weight: bold;
+	text-decoration: none;
+	color: white;
+	background: #cccccc; }
+
+.title { 
+	font-size: xx-large; }
+
+.upper-title { 
+	font-size: large; }
+
+.lower-text { 
+	font-size: small; }
+
+div.box { 
+	background: black;
+	color: white;
+	border: 0px;
+	width: 400px;
+	height: 250px;
+	overflow: auto;
+	filter:alpha(opacity=85);
+	opacity:0.85;
+	-moz-opacity:0.85;
+	margin-top: 10px;
+	margin-left: 10px;
+	padding: 10px 10px 10px 10px; }

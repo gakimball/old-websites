@@ -1,0 +1,101 @@
+	body { 
+		background: url('img/bg.jpg') bottom repeat-x fixed #ffffff;
+		font-family: Arial, sans-serif; }
+	table.nav { 
+		border: 1px solid #666666;
+		border-collapse: collapse;
+		width: 600px; }
+	table.nav td { 
+		background: url('img/button.jpg') bottom repeat-x;
+		border: 1px solid #666666;
+		text-align: center;
+		height: 50px; }
+	table.nav td.active { 
+		background: url('img/button_a.jpg') bottom repeat-x; }
+	table.nav td a:link { 
+		color: white;
+		font-weight: bold;
+		text-decoration: none; }
+	table.nav td a:visited { 
+		color: white;
+		font-weight: bold;
+		text-decoration: none; }
+	table.nav td a:hover { 
+		color: white;
+		background-color: transparent;
+		font-weight: bold;
+		text-decoration: underline; }
+	table.nav td a:active { 
+		color: white;
+		font-weight: bold;
+		text-decoration: underline; }
+	div.belownav { 
+		width: 600px;
+		border: 1px solid #666666;
+		border-top: 1px solid #999999;
+		padding: 10px 10px 10px 10px;
+		background-color: #999999;
+		text-align: left;
+		color: white; }
+	div.belownav a:link { 
+		color: white;
+		font-weight: bold;
+		text-decoration: none; }
+	div.belownav a:visited { 
+		color: white;
+		font-weight: bold;
+		text-decoration: none; }
+	div.belownav a:hover { 
+		color: white;
+		background-color: transparent;
+		font-weight: bold;
+		text-decoration: underline; }
+	div.belownav a:active { 
+		color: white;
+		font-weight: bold;
+		text-decoration: underline; }
+	h2 { 
+		border: 1px solid #666666;
+		background: url('img/button.jpg') bottom repeat-x;
+		width: 600px;
+		color: white;
+		text-align: left;
+		padding: 5px 5px 5px 5px; }
+	table.update { 
+		border: 1px solid #666666;
+		border-collapse: collapse;
+		width: 600px; }
+	table.update th { 
+		background: url('img/button.jpg') bottom repeat-x;
+		color: white;
+		text-align: left;
+		padding: 5px 5px 5px 5px; }
+	table.update td { 
+		background-color: #ffffff;
+		padding: 5px 5px 5px 5px; }
+	table.update td.date { 
+		background: url('img/button.jpg') bottom repeat-x;
+		color: #999999;
+		text-align: right;
+		vertical-align: bottom;
+		font-size: small; }
+	a:link { 
+		color: #666666;
+		font-weight: bold;
+		text-decoration: none; }
+	a:visited { 
+		color: #666666;
+		font-weight: bold;
+		text-decoration: none; }
+	a:hover { 
+		color: #ffffff;
+		background-color: #666666;
+		font-weight: bold;
+		text-decoration: none; }
+	a:active { 
+		color: #666666;
+		font-weight: bold;
+		text-decoration: none; }
+	table.update th a:hover { 
+		color: white;
+		background-color: transparent }

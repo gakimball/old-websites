@@ -1,0 +1,241 @@
+/*
+==============
+General Styles
+==============
+*/
+
+body { 
+	margin: 0px;
+	padding: 0px;
+	background: #ffffff;
+	font-family: Helvetica, Verdana, Arial, sans-serif; }
+img { 
+	border: 0px; }
+div { 
+	margin: 0px;
+	padding: 0px; }
+blockquote { 
+	border-left: 1px solid #666;
+	padding-left: 10px;
+	background: url('quote.jpg') top left no-repeat; }
+blockquote, ul, ol { 
+	margin-left: 40px; }
+.screen-border { 
+	border: 1px solid #666;
+	padding: 10px;
+	width: 404px;
+	margin: 10px; }
+.screen-border img { 
+	border: 1px solid #666; }
+
+/*
+=============
+Header Styles
+=============
+*/
+
+#title { 
+	width: 100%;
+	height: 100px;
+	background: #666666; }
+#title div { 
+	width: 800px;
+	height: 100px;
+	margin-left: auto;
+	margin-right: auto; }
+
+/*
+=====================
+Highlights Box Styles
+=====================
+*/
+
+#highlights { 
+	width: 100%;
+	height: 210px;
+	padding: 20px 0px 20px 0px;
+	background: #85c9f0; }
+.hl-main { 
+	width: 800px;
+	height: 210px;
+	margin-left: auto;
+	margin-right: auto; }
+.hl-main .hl-left { 
+	width: 518px;
+	height: 208px;
+	border: 1px solid black;
+	margin-right: 20px;
+	float: left;
+	background-image: url('../images/highlights/highlight01.jpg'); }
+.hl-right { 
+	width: 260px; 
+	height: 210px;
+	float: right;
+	overflow: auto; }
+.hl-rtop { 
+	width: 260px;
+	height: 95px;
+	margin-bottom: 20px; }
+.hl-rbot { 
+	width: 260px;
+	height: 95px; }
+.button-l, .button-r { 
+	border: 1px solid black; }
+.button-l { 
+	margin-right: 20px;
+	float: left; }
+.button-r { 
+	float: right; }
+#highlights a:hover img { 
+	border: 1px solid #ff0000; }
+
+/*
+===================
+Navigational Styles
+===================
+*/
+
+#n-align { 
+	text-align: center;
+	padding-bottom: 20px;
+	border-bottom: 2px solid #85c9f0;
+	margin-bottom: 20px; }
+ul.navigation { 
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px 0px 0px 10px;
+	height: 100%;
+	display: inline; }
+ul.navigation li { 
+	display: inline;
+	padding: 0px;
+	margin-right: 10px; }
+ul.navigation li a:link { 
+	font-size: 1.10em;
+	color: #000;
+	font-weight: bold;
+	text-decoration: none; }
+ul.navigation li a:hover { 
+	color: #000;
+	border-bottom: 2px solid #000;
+	font-weight: bold; }
+ul.navigation li a:visited { 
+	font-size: 1.10em;
+	color: #000;
+	font-weight: bold;
+	text-decoration: none; }
+
+/*
+========================
+Left-Side Content Styles
+========================
+*/
+
+#content-left { 
+	width: 458px;
+	padding-right: 20px;
+	margin-right: 20px;
+	border-right: 2px solid #85c9f0;
+	float: left; }
+#content-left h1 { 
+	font-family: serif;
+	font-style: italic;
+	margin: 0px;
+	padding: 0px;
+	color: #666;
+	line-height: 80%; }
+#content-left span.subhead { 
+	font-size: 0.75em; }
+
+#content-left a:link { 
+	color: #666;
+	font-weight: bold;
+	text-decoration: none; }
+#content-left a:hover { 
+	color: #000;
+	font-weight: bold;
+	text-decoration: underline; }
+#content-left a:visited { 
+	color: #666;
+	font-weight: bold;
+	text-decoration: none; }
+
+#content-left ul {
+	list-style-type: circle;
+	list-style-position: inside; }
+#content-left ul li { 
+	padding: 0px;
+	margin: 0px 0px 5px 0px; }
+#content-left ol { 
+	list-style-position: inside; }
+
+#comment-block { 
+	width: 100%;
+	text-align: center;
+	background-color: #85c9f0;
+	padding: 5px;
+	color: white;
+	margin-bottom: 10px; }
+
+#comment-block a:link { 
+	color: white;
+	font-weight: bold;
+	text-decoration: none; }
+#comment-block a:hover { 
+	background: #85c9f0;
+	color: white;
+	font-weight: bold;
+	text-decoration: underline; }
+#comment-block a:visited { 
+	color: white;
+	font-weight: bold;
+	text-decoration: none; }
+
+/*
+=========================
+Right-Side Content Styles
+=========================
+*/
+
+#content-right { 
+	width: 280px;
+	float: right; }
+#content-right ul { 
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none; }
+#content-right ul li { 
+	border-bottom: 1px solid #666;
+	padding: 5px;
+	margin-left: 10px; }
+#content-right ul li.list-header { 
+	font-size: 1.1em;
+	font-family: serif;
+	border: 0px;
+	font-style: italic;
+	font-weight: bold;
+	color: #666;
+	padding: 0px;
+	margin: 0px; }
+#content-right ul li a:link { 
+	color: #000;
+	text-decoration: none; }
+#content-right ul li a:hover { 
+	color: #000;
+	text-decoration: underline; }
+#content-right ul li a:visited { 
+	color: #000;
+	text-decoration: none; }
+
+/*
+=============
+Wrapper Style
+=============
+*/
+
+#wrapper { 
+	width: 800px;
+	height: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 20px; }

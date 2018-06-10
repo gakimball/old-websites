@@ -1,0 +1,162 @@
+/*
+=========================
+lol, pushb.com stylesheet
+=========================
+*/
+
+
+/* main page syntax */
+
+body { 
+    	font-family: Arial, sans-serif;
+    	margin-top: 0px;
+    	margin-left: 10px;
+    	background-image: url('../images/bg.jpg');
+    	background-position: bottom right;
+    	background-attachment: scroll;
+    	background-repeat: no-repeat; }
+
+
+/* gives whatever a 2px black border */
+
+.blackborder { 
+	border: 2px solid black; }
+
+
+/* this is for the left and right
+columns below the main header image */
+
+.left-side { 
+	width: 30%;
+	text-align: justify;
+	vertical-align: top;
+	padding-right: 20px; }
+
+.right-side { 
+	width: 70%;
+	border-left: 1px solid black;
+	padding-left: 20px; }
+
+
+/* header and sub-header text
+for updates and reviews */
+
+.rheader { 
+	font-size: large;
+	font-weight: bold; }
+
+.sub {
+	color: #666666;
+	font-size: small; }
+
+
+/* eliminates borders on all images
+unless I want them there, dangit! */
+
+img { 
+	border: 0px; }
+
+
+/* style for the search bar
+and submit button */
+
+div.searchbox { 
+	border: 0px;
+	background: #ffffff;
+	padding: 15px 15px 15px 15px;
+	width: 60%;
+	filter:alpha(opacity=95);
+	opacity:0.95;
+	-moz-opacity:0.95; }
+
+input.search { 
+	border: 2px solid #999999;
+	background: #999999;
+	color: #ffffff;
+	font-weight: bold; }
+
+input.button { 
+	border: 2px solid #999999;
+	background: #999999;
+	color: #ffffff;
+	font-weight: bold; }
+
+
+/* these are the pictures of
+the dudes who write whatever */
+
+.avatar { 
+	border: 1px solid black;
+	float: left;
+	margin-right: 20px;
+	margin-bottom: 10px; }
+
+
+/* the transparent box over the header
+image that houses whatever text */
+
+.descrip { 
+	width: 300px;
+	height: 175px;
+	margin: 110px 0px 0px 490px;
+	padding: 10px 10px;
+	overflow: auto;
+	background-color: #ffffff;
+	color: #000000;
+	filter:alpha(opacity=85);
+	opacity:0.85;
+	-moz-opacity:0.85; }
+
+
+/* highlighted text, themed by company */
+
+.sys-ms { 
+	color: #000000;
+	background: #99ff99;
+	font-size: small; }
+
+.sys-ps { 
+	color: #000000;
+	background: #9999ff;
+	font-size: small; }
+
+.sys-wiids { 
+	color: #000000;
+	background: #ff9999;
+	font-size: small; }
+
+.sys-sega { 
+	color: #000000;
+	background: #666699;
+	font-size: small; }
+
+.sys-atari { 
+	color: #000000;
+	background: #999999;
+	font-size: small; }
+
+.sys-misc { 
+	color: #000000;
+	background: #cccccc;
+	font-size: small; }
+
+
+/* link syntax */
+
+a:link { 
+	color: #000000;
+	text-decoration: none; }
+
+a:visited { 
+	color: #000000;
+	text-decoration: none; }
+
+a:hover { 
+	color: #000000;
+	background: #cccccc;
+	text-decoration: none; }
+
+a:active { 
+	color: #000000;
+	background: #cccccc;
+	text-decoration: none; }

@@ -1,0 +1,199 @@
+<html>
+
+<head>
+
+	<title>main page</title>
+    <style type="text/css">
+		body { 
+			font-family: Arial;
+			background-color: black;
+			background-image: url('bg.jpg'); }
+		h2 { 
+			color: black;
+			background: white;
+			background-image: url('h1bg.jpg');
+			background-position: bottom;
+			background-repeat: repeat-x;
+			border: 1px solid #999999;
+			padding: 5px 5px 5px 5px; }
+		h3 { 
+			color: black;
+			background: white;
+			background-image: url('h1bg.jpg');
+			background-position: bottom;
+			background-repeat: repeat-x;
+			border: 1px solid #999999;
+			padding: 5px 5px 5px 5px; }
+		table.nav { 
+			text-align: center;
+			background-color: #cccccc; }
+		table.content { 
+			color: #000000;
+			background-color: #ffffff;
+			/* background-image: url(bg.jpg);
+			background-position: bottom right;
+			background-repeat: no-repeat; */
+			border: 0px; }
+		div.review { 
+			background: #eeeeee;
+			border: 1px solid #cccccc;
+			padding: 5px 5px 5px 5px; }
+		div.review div.title { 
+			font-size: large;
+			background: #bbbbbb;
+			padding: 5px 5px 5px 5px;
+			margin: 0px 0px 0px 0px; }
+		td.activebutton { 
+			background-color: #ffffff;
+			/* background-image: url(buttonbg.jpg);
+			background-repeat: repeat-x; */ }
+		td.syswindow { 
+			padding: 10px 10px 10px 10px;
+			border: 2px solid #000066; }
+		form.sform { 
+			display: none; }
+		input.search { 
+			width: 300px;
+			height: 40px;
+			background: white;
+			border: 1px solid #999999;
+			color: black;
+			font-size: large; }
+		input.submit { 
+			color: black;
+			font-size: large;
+			height: 40px;
+			background-color: white;
+			background-image: url('buttonbg.jpg');
+			background-position: bottom;
+			background-repeat: repeat-x;
+			border: 1px solid #999999;
+			height: auto; }
+		a:link { 
+			color: #000000;
+			font-weight: bold;
+			text-decoration: none; }
+		a:visited { 
+			color: #000000;
+			font-weight: bold;
+			text-decoration: none; }
+		a:hover { 
+			color: #000000;
+			font-weight: bold;
+			text-decoration: underline; }
+		a:active { 
+			color: #000000;
+			font-weight: bold;
+			text-decoration: underline; }
+	</style>
+	
+	<script type="text/javascript">
+		x = 0
+		
+		function showSearch()
+		{
+		if (x == 0)
+			{
+			x = 1
+			document.getElementById("sform").style.display="inline"
+			document.getElementById("sbutton").style.background="#ffffff"
+			}
+		else
+			{
+			x = 0
+			document.getElementById("sform").style.display="none"
+			document.getElementById("sbutton").style.background=""
+			}
+		}
+	</script>
+
+</head>
+
+<body>
+
+<!-- start big epic table -->
+<table cellspacing="0" cellpadding="0" align="center" width="800px">
+	<tr><td>
+		<!-- header image -->
+		<img src="header.png" align="center">
+	</td></tr>
+	
+	
+	<tr><td>
+		<!-- start nav table -->
+		<table cellspacing="0" cellpadding="10" width="100%" class="nav">
+			<tr><td>
+				&nbsp;
+			</td><td>
+				<a href="http://www.something.com">
+				main page
+				</a>
+			</td><td class="activebutton">
+				<a href="http://www.something.com">
+				game reviews
+				</a>
+			</td><td>
+				<a href="http://www.something.com">
+				editorials
+				</a>
+			</td><td>
+				<a href="http://www.google.com">
+				features
+				</a>
+			</td><td>
+				<a href="http://www.google.com">
+				video
+				</a>
+			</td><td>
+				<a href="http://www.google.com">
+				podcast
+				</a>
+			</td><td>
+				<a href="http://www.google.com">
+				forums
+				</a>
+			</td><td id="sbutton">
+				<a href="javascript:showSearch()">
+				search
+				</a>
+			</td><td>
+				&nbsp;
+			</td></tr>
+		</table>
+		<!-- end nav table -->
+	</td></tr>
+	
+	
+	<tr><td>
+		<!-- start content table -->
+		<table cellspacing="0" cellpadding="10" width="100%" class="content">
+		<br>
+		
+		
+		<form id="sform" class="sform">
+		<h3>search</h3>
+		<input type="text" class="search"> <input type="submit" value="submit" class="submit">
+		</form>
+		
+		<table cellspacing="0" cellpadding="0">
+			<tr><td>
+				<img src="rheader.jpg" align="center">
+			</td></tr>
+			
+			<tr><td class="syswindow">
+				lol, content.
+			</td></tr>
+		</table>
+		
+		
+		</table>
+		<!-- end content table -->
+	</td></tr>
+	
+	
+</table>
+<!-- end fully epic table -->
+
+</body>
+
+</html>

@@ -1,0 +1,122 @@
+<html>
+
+<head>
+
+<style type="text/css">
+	body { 
+		font-family: Arial, sans-serif; }
+	table.upper { 
+		background-image: url('img/genre_selected.jpg');
+		background-position: left;
+		background-repeat: no-repeat;
+		/* background-color: #ffba00; */
+		color: white; }
+	table.lower { 
+		background-image: url('img/gradiant_ro.jpg');
+		background-position: left;
+		background-repeat: repeat-y;
+		background-color: #ffba00;
+		color: white; }
+	span.corp { 
+		font-size: x-small;
+		font-weight: bold;
+		text-decoration: underline; }
+	span.corner { 
+		align: left;
+		vertical-align: bottom; }
+	a:link { 
+		color: white;
+		text-decoration: none;
+		font-weight: bold; }
+	a:visited { 
+		color: white;
+		text-decoration: none;
+		font-weight: bold; }
+	a:hover { 
+		color: white;
+		text-decoration: underline;
+		font-weight: bold; }
+	a:active { 
+		color: white;
+		text-decoration: none;
+		font-weight: bold; }
+</style>
+
+<script type="text/javascript">
+	function chgText(text)
+	{
+	document.getElementById('descrip').innerHTML=text
+	}
+</script>
+
+
+</head>
+
+<body topmargin="0" leftmargin="0">
+
+<!--
+<table cellspacing="0" cellpadding="0">
+
+<tr><td>
+-->
+
+	<table width="400" class="upper" cellspacing="0">
+		<tr>
+			<td width="50%" height="50" align="center">
+				<a href="nav_p.html">platforms</a>
+			</td>
+			<td width="50%" align="center">
+				<a href="#">genres</a>
+			</td>
+		</tr>
+	</table>
+
+<!--
+</td></tr>
+<tr><td>
+-->
+
+	<table width="400" height="150" class="lower">
+		<tr>
+			<td width="25%" valign="top" style="padding-top:4px">
+				<a href="#" onmouseover="chgText('ACTION » ')">action</a><br>
+				<a href="#" onmouseover="chgText('SHOOTER » Halo, Counter-Strike')">shooter</a><br>
+				<a href="#" onmouseover="chgText('ROLE-PLAYING » Final Fantasy, Dragon Quest')">role-playing</a>
+				<a href="#" onmouseover="chgText('STRATEGY » Command & Conquer, Starcraft')">strategy</a>
+			</td>
+			<td width="25%" valign="top" style="padding-top:4px">
+				<a href="#" onmouseover="chgText('SPORTS » Madden, Tony Hawks Pro Skater')">sports</a><br>
+				<a href="#" onmouseover="chgText('PUZZLE » Tetris, Lumines')">puzzle</a><br>
+				<a href="#" onmouseover="chgText('ADVENTURE » Sam & Max, Myst')">adventure</a><br>
+				<a href="#" onmouseover="chgText('PLATFORMER » Super Mario Bros., Psychonauts')">platformer</a><br>
+			</td>
+			<td width="25%" valign="top" style="padding-top:4px">
+				<a href="#" onmouseover="chgText('SIMULATION » The Sims, Rollar Coaster Tycoon')">simulation</a><br>
+				<a href="#" onmouseover="chgText('WRESTLING » Smackdown vs. Raw')">wrestling</a><br>
+				<a href="#" onmouseover="chgText('RACING » Gran Turismo, Forza Motorsport')">racing</a><br>
+				<a href="#" onmouseover="chgText('FIGHTING » Virtua Fighter, Tekken')">fighting</a>
+			</td>
+			<td width="25%" valign="top" style="padding-top:4px">
+				<a href="#" onmouseover="chgText('ARCADE » Pac-Man, Galaga')">arcade</a><br>
+				<a href="#" onmouseover="chgText('PARTY » Mario Party')">party</a><br>
+				<a href="#" onmouseover="chgText('CARD/BOARD » Texas Hold Em, Catan')">card/board</a>
+				<a href="#" onmouseover="chgText('MISC » the weird ones')">misc</a><br>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="4">
+				<span id="descrip">&nbsp;</span>
+			</td>
+		</tr>
+	</table>
+
+<!--
+</tr></td>
+
+</table>
+-->
+
+</body>
+
+</html>
+</script>

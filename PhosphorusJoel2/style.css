@@ -1,0 +1,90 @@
+body { 
+	background-image: url('background.jpg');
+	margin-top: 5px;
+	margin-bottom: 5px;
+	font-family: Arial, sans-serif;
+	color: white; }
+
+table.main { 
+	width: 800px;
+	height: 750px;
+	background: white;
+	border: 2px solid white; }
+
+table.main td.lower { 
+	background-color: #6077A1;
+	background-image: url('bg.jpg');
+	background-repeat: no-repeat;
+	padding-left: 10px;
+	background-position: bottom right;
+	vertical-align: top; }
+
+table.main td.upper { 
+	background-image: url('phos2.jpg');
+	height: 500px;
+	vertical-align: top; }
+
+a:link { 
+	font-weight: bold;
+	text-decoration: underline;
+	color: white; }
+
+a:visited { 
+	font-weight: bold;
+	text-decoration: underline;
+	color: white; }
+
+a:hover { 
+	font-weight: bold;
+	text-decoration: none;
+	color: white; }
+
+a:active { 
+	font-weight: bold;
+	text-decoration: none;
+	color: white; }
+
+a:link.black { 
+	font-weight: bold;
+	text-decoration: none;
+	color: black; }
+
+a:visited.black { 
+	font-weight: bold;
+	text-decoration: none;
+	color: black; }
+
+a:hover.black { 
+	font-weight: bold;
+	text-decoration: none;
+	color: black;
+	background: #cccccc; }
+
+a:active.black { 
+	font-weight: bold;
+	text-decoration: none;
+	color: black;
+	background: #cccccc; }
+
+.title { 
+	font-size: xx-large; }
+
+.upper-title { 
+	font-size: large; }
+
+.lower-text { 
+	font-size: small; }
+
+div.box { 
+	background: white;
+	color: black;
+	border: 0px;
+	width: 400px;
+	height: 250px;
+	overflow: auto;
+	filter:alpha(opacity=85);
+	opacity:0.85;
+	-moz-opacity:0.85;
+	margin-top: 10px;
+	margin-left: 10px;
+	padding: 10px 10px 10px 10px; }
